@@ -8,7 +8,7 @@ import serial_asyncio
 import voluptuous as vol
 
 from homeassistant.components.sensor import PLATFORM_SCHEMA, SensorEntity,  SensorDeviceClass, SensorStateClass
-from homeassistant.const import CONF_NAME, CONF_UNIQUE_ID, CONF_DEVICES, EVENT_HOMEASSISTANT_STOP, POWER_WATT
+from homeassistant.const import CONF_NAME, CONF_UNIQUE_ID, CONF_DEVICES, EVENT_HOMEASSISTANT_STOP, UnitOfPower
 import homeassistant.helpers.config_validation as cv
 
 _LOGGER = logging.getLogger(__name__)
@@ -59,7 +59,7 @@ class CurrentCostSensor(SensorEntity):
         """Initialize the Current Cost sensor."""
         self._name = name
         self._attr_unique_id = unique_id
-        self._unit = POWER_WATT
+        self._unit = UnitOfPower.WATT
         self._icon = "mdi:flash-outline"
         self._device_class = SensorDeviceClass.POWER
         self._state_class = SensorStateClass.MEASUREMENT
