@@ -4,7 +4,7 @@
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
 # CurrentCost Custom Component for Home Assistant
 
-**Please note: Home Assistant 2021.12 or higher is required for this custom component to work**
+**Please note: Home Assistant 2025.1 or higher is required for this custom component to work**
 
 This repo is a custom component for [Home Assistant](https://www.home-assistant.io/)
 
