@@ -1,3 +1,7 @@
+## [0.2.6] - Unreleased
+### Changed
+- Remove use of deprecated constant POWER_WATT
+
 ## [0.2.5] - 2023-06-30
 ### Changed
 - version bump pyserial-asyncio==0.6 to fix for python 3.11 in 2023.6
