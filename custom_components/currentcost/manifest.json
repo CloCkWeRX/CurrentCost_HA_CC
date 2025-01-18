@@ -1,14 +1,14 @@
 {
   "domain": "currentcost",
-  "name": "Current Cost",
-  "version": "0.2.5",
-  "documentation": "https://github.com/lolouk44/CurrentCost_HA_CC",
+  "name": "Current Cost (Forked for 2025.1.1+)",
+  "version": "0.2.6",
+  "documentation": "https://github.com/CloCkWeRX/CurrentCost_HA_CC",
   "requirements": [
     "pyserial-asyncio==0.6",
     "xmltodict==0.12.0"
   ],
   "dependencies": [],
-  "issue_tracker": "https://github.com/lolouk44/CurrentCost_HA_CC/issues",
+  "issue_tracker": "https://github.com/CloCkWeRX/CurrentCost_HA_CC/issues",
   "codeowners": [
     "@lolouk44"
   ]
